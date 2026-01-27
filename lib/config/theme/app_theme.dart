@@ -6,6 +6,7 @@ const listColor = [
   Colors.green,
   Colors.yellow,
   Colors.purple,
+  Colors.blueAccent,
 ];
 
 class AppTheme {
