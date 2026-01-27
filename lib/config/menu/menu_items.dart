@@ -27,4 +27,34 @@ const appMenuItems = <MenuItems>[
     path: '/cards',
     icon: Icons.credit_card,
   ),
+  MenuItems(
+    title: 'Progreso',
+    subTitle: 'Indicadores de progreso',
+    path: '/progress',
+    icon: Icons.linear_scale_rounded,
+  ),
+  MenuItems(
+    title: 'Snackbar',
+    subTitle: 'Mensajes emergentes',
+    path: '/snackbar',
+    icon: Icons.info_outline,
+  ),
+  MenuItems(
+    title: 'Animado',
+    subTitle: 'Widgets animados',
+    path: '/animated',
+    icon: Icons.animation_rounded,
+  ),
+  MenuItems(
+    title: 'Scroll Infinito',
+    subTitle: 'Lista con scroll infinito',
+    path: '/infinite-scroll',
+    icon: Icons.inbox,
+  ),
+  MenuItems(
+    title: 'Controles UI',
+    subTitle: 'Controles de interfaz de usuario',
+    path: '/ui-controls',
+    icon: Icons.widgets_rounded,
+  ),
 ];
