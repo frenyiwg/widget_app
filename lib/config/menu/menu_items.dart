@@ -31,7 +31,7 @@ const appMenuItems = <MenuItems>[
     title: 'Progreso',
     subTitle: 'Indicadores de progreso',
     path: '/progress',
-    icon: Icons.linear_scale_rounded,
+    icon: Icons.refresh_rounded,
   ),
   MenuItems(
     title: 'Snackbar',
