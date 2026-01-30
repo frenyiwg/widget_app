@@ -46,15 +46,15 @@ const appMenuItems = <MenuItems>[
     icon: Icons.animation_rounded,
   ),
   MenuItems(
-    title: 'Scroll Infinito',
-    subTitle: 'Lista con scroll infinito',
-    path: '/infinite-scroll',
-    icon: Icons.inbox,
-  ),
-  MenuItems(
     title: 'Controles UI',
     subTitle: 'Controles de interfaz de usuario',
     path: '/ui-controls',
     icon: Icons.widgets_rounded,
+  ),
+  MenuItems(
+    title: 'Scroll Infinito',
+    subTitle: 'Lista con scroll infinito',
+    path: '/infinite-scroll',
+    icon: Icons.inbox,
   ),
 ];
