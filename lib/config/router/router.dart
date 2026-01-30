@@ -30,5 +30,9 @@ final routerConfig = GoRouter(
       path: '/ui-controls',
       builder: (context, state) => const UiControlScreen(),
     ),
+    GoRoute(
+      path: '/tutorial',
+      builder: (context, state) => const AppTutorialScreen(),
+    ),
   ],
 );

@@ -52,6 +52,12 @@ const appMenuItems = <MenuItems>[
     icon: Icons.widgets_rounded,
   ),
   MenuItems(
+    title: 'Tutorial',
+    subTitle: 'Aprende a utilizar la aplicación',
+    path: '/tutorial',
+    icon: Icons.school_rounded,
+  ),
+  MenuItems(
     title: 'Scroll Infinito',
     subTitle: 'Lista con scroll infinito',
     path: '/infinite-scroll',
