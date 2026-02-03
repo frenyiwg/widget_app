@@ -34,5 +34,13 @@ final routerConfig = GoRouter(
       path: '/tutorial',
       builder: (context, state) => const AppTutorialScreen(),
     ),
+    GoRoute(
+      path: '/counter',
+      builder: (context, state) => const CounterScreen(),
+    ),
+    GoRoute(
+      path: '/color-change',
+      builder: (context, state) => const ColorChange(),
+    ),
   ],
 );

@@ -24,10 +24,11 @@ class _HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
     return ListView.builder(
       itemCount: appMenuItems.length,
       itemBuilder: (context, index) {
-        final theme = Theme.of(context);
         final menuItem = appMenuItems[index];
 
         return ListTile(

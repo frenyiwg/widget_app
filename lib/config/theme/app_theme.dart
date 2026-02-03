@@ -6,13 +6,12 @@ const listColor = [
   Colors.green,
   Colors.yellow,
   Colors.purple,
-  Colors.blueAccent,
 ];
 
 class AppTheme {
   final int selectedColor;
-
-  AppTheme({required this.selectedColor})
+  final bool isDark;
+  AppTheme({required this.selectedColor, required this.isDark})
     : assert(
         selectedColor >= 0 && selectedColor < listColor.length,
         "Selected color index is out of bounds",
@@ -21,10 +20,7 @@ class AppTheme {
   ThemeData getTheme() => ThemeData(
     useMaterial3: true,
     colorSchemeSeed: listColor[selectedColor],
-    scaffoldBackgroundColor: Colors.white,
-    appBarTheme: const AppBarTheme(
-      backgroundColor: Colors.white,
-      centerTitle: false,
-    ),
+    brightness: isDark ? Brightness.dark : Brightness.light,
+    appBarTheme: const AppBarTheme(centerTitle: false),
   );
 }

@@ -63,4 +63,16 @@ const appMenuItems = <MenuItems>[
     path: '/infinite-scroll',
     icon: Icons.inbox,
   ),
+  MenuItems(
+    title: 'Counter',
+    subTitle: 'Contador simple',
+    path: '/counter',
+    icon: Icons.add_rounded,
+  ),
+  MenuItems(
+    title: 'Change color theme',
+    subTitle: 'Cambiar tema de colores',
+    path: '/color-change',
+    icon: Icons.palette_rounded,
+  ),
 ];

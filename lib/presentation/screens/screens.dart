@@ -1,5 +1,6 @@
+export 'package:widgets_app/presentation/screens/color-change/color_change.dart';
+export 'package:widgets_app/presentation/screens/counter/counter_screen.dart';
 export 'package:widgets_app/presentation/screens/ui-controls/ui_control_screen.dart';
-
 export 'package:widgets_app/presentation/screens/progress/progress_screen.dart';
 export 'package:widgets_app/presentation/screens/snackbar/snackbar_screen.dart';
 export 'package:widgets_app/presentation/screens/buttons/buttons_screen.dart';

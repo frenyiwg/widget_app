@@ -23,6 +23,7 @@
 dependencies:
   flutter:
     sdk: flutter
-  go_router: ^latest
-  animated_do: ^latest
+  go_router: ^17.0.0
+  animated_do: ^4.2.0
+  flutter_riverpod: ^3.2.0
 ```
